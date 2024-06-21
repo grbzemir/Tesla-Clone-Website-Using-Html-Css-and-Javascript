@@ -258,3 +258,208 @@ header a {
 .head a:hover {
     text-decoration-thickness: 2px;
 }
+
+.login {
+
+    position: fixed;
+    /* Sabit konumlandırma */
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    /*Yatayda ortalanmasını sağlar*/
+
+
+}
+
+
+
+.login div {
+
+    display: flex;
+    justify-content: center;
+    /*Yatayda ortalanmasını sağlar*/
+}
+
+
+.btn div {
+
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+
+#order {
+
+    background-color: #393c41;
+    color: white;
+
+}
+
+#invent {
+
+    background-color: #eeebeb;
+    color: #393c41;
+}
+
+#order,
+#invent {
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blank {
+
+    height: 70px;
+
+}
+
+.login .arrow {
+    height: 60px;
+    font-size: 25px;
+    color: rgb(75, 75, 75);
+    animation: updown 1.5s ease infinite;
+    /*Animasyonu başlatır*/
+}
+
+
+
+
+
+@keyframes updown {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    /*Yukarı aşağı hareketi sağlar*/
+
+    10% {
+        transform: translateY(10px);
+    }
+
+    /* 50. saniyede 10px aşağı hareket eder*/
+
+    20% {
+        transform: translateY(0);
+    }
+
+    /*Yukarı aşağı hareketi sağlar*/
+
+    30% {
+        transform: translateY(10px);
+    }
+
+    /* 50. saniyede 10px aşağı hareket eder*/
+
+    40% {
+        transform: translateY(0);
+    }
+
+    /*Yukarı aşağı hareketi sağlar*/
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    /* 50. saniyede 10px aşağı hareket eder*/
+
+    80% {
+        transform: translateY(0);
+    }
+
+    /*Yukarı aşağı hareketi sağlar*/
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.main .head h1 {
+    animation: showspan 1s;
+    /*Animasyonu başlatır*/
+}
+
+.main .head span {
+
+    animation: show 2s;
+    /*Animasyonu başlatır*/
+}
+
+
+@keyframes show {
+
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    40% {
+        opacity: 0;
+        transform: translateY(30);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.login #order {
+
+    animation: order 1s;
+
+}
+
+@keyframes order {
+
+    0% {
+
+        transform: translateX(-20px);
+        opacity: 0;
+
+    }
+
+    100% {
+
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+}
+
+.login #invent {
+    animation: invent 1s;
+
+}
+
+
+@keyframes invent {
+
+    0% {
+
+        transform: translateX(20px);
+        opacity: 0;
+
+    }
+
+    100% {
+
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+}
