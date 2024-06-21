@@ -165,3 +165,96 @@ header a {
     width: 65px;
 
 }
+
+.main-1 {
+    display: flex;
+    overflow: auto;
+    flex: none;
+    /*Boyutun sabit kalmasını sağlar*/
+    width: 100%;
+    height: 100vh;
+    flex-flow: column nowrap;
+    /* Yatayda sıralanmasını sağlar*/
+
+
+}
+
+
+.main-1>div {
+
+    text-align: center;
+    /*Yazıların ortalanmasını sağlar*/
+    flex: none;
+    /* Boyutun sabit kalmasını sağlar*/
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-1 div img {
+
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    /*Resmi boyutlandırırken oranı korur*/
+    object-position: center;
+    /*Resmi ortalar*/
+}
+
+.main-2 {
+    position: relative;
+    /* Göreceli konumlandırma */
+
+}
+
+.head {
+
+    position: absolute;
+    /* Mutlak konumlandırma */
+    display: flex;
+    /*Yan yana sıralanmasını sağlar*/
+    flex-direction: column;
+    /* Dikeyde sıralanmasını sağlar*/
+    justify-content: center;
+    /*Yatayda ortalanmasını sağlar*/
+    width: 100%;
+    top: 0;
+    height: 40vh;
+    align-items: center;
+
+}
+
+
+.head h1 {
+
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+    padding-bottom: 5px;
+    /*Alt boşluk*/
+}
+
+.head span {
+
+    color: rgb(53, 53, 53);
+    font-size: 17px;
+
+}
+
+
+.head a {
+
+    color: rgb(53, 53, 53);
+    text-decoration: underline;
+    /*Altı çizili*/
+    cursor: pointer;
+    text-underline-position: under;
+    /*Alt çizginin metnin altında olmasını sağlar*/
+
+
+}
+
+
+.head a:hover {
+    text-decoration-thickness: 2px;
+}
