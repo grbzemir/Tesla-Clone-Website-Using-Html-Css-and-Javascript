@@ -175,6 +175,8 @@ header a {
     height: 100vh;
     flex-flow: column nowrap;
     /* Yatayda sıralanmasını sağlar*/
+    scroll-snap-type: y mandatory;
+    /*Yatayda kaydırma yapılmasını sağlar*/
 
 
 }
@@ -188,6 +190,8 @@ header a {
     /* Boyutun sabit kalmasını sağlar*/
     width: 100%;
     height: 100%;
+    scroll-snap-align: center;
+    /*Kaydırma yaparken ortalanmasını sağlar*/
 
 }
 
@@ -331,9 +335,6 @@ header a {
 }
 
 
-
-
-
 @keyframes updown {
 
     0% {
@@ -383,28 +384,25 @@ header a {
     }
 }
 
+
 .main .head h1 {
+
     animation: showspan 1s;
-    /*Animasyonu başlatır*/
+
 }
 
 .main .head span {
 
-    animation: show 2s;
-    /*Animasyonu başlatır*/
-}
+    animation: show 1s;
 
+
+}
 
 @keyframes show {
 
     0% {
         opacity: 0;
         transform: translateY(30px);
-    }
-
-    40% {
-        opacity: 0;
-        transform: translateY(30);
     }
 
     70% {
@@ -416,50 +414,59 @@ header a {
         opacity: 1;
         transform: translateY(0px);
     }
+
+
+}
+
+
+@keyframes showspan {
+
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
 }
 
 .login #order {
 
     animation: order 1s;
-
 }
 
 @keyframes order {
 
     0% {
-
-        transform: translateX(-20px);
         opacity: 0;
-
+        transform: translateX(-20px);
     }
 
     100% {
-
-        transform: translateX(0);
         opacity: 1;
-
+        transform: translateX(0);
     }
+
 }
 
 .login #invent {
+
     animation: invent 1s;
-
 }
-
 
 @keyframes invent {
 
     0% {
-
-        transform: translateX(20px);
         opacity: 0;
-
+        transform: translateX(20px);
     }
 
     100% {
-
-        transform: translateX(0);
         opacity: 1;
-
+        transform: translateX(0);
     }
+
 }
