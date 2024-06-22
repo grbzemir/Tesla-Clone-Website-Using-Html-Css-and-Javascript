@@ -1,0 +1,7 @@
+![Ekran görüntüsü 2024-06-23 014734](https://github.com/grbzemir/Tesla-Clone-Website-Using-Html-Css-and-Javascript/assets/125201557/9d6f75e2-b0b5-4df9-a0cd-bda734902cbe)
+![Ekran görüntüsü 2024-06-23 014754](https://github.com/grbzemir/Tesla-Clone-Website-Using-Html-Css-and-Javascript/assets/125201557/813b345c-7382-42be-a1e9-af796d94d893)
+![Ekran görüntüsü 2024-06-23 014807](https://github.com/grbzemir/Tesla-Clone-Website-Using-Html-Css-and-Javascript/assets/125201557/941cef05-ba17-474d-9579-95b258b30f94)
+![Ekran görüntüsü 2024-06-23 014801](https://github.com/grbzemir/Tesla-Clone-Website-Using-Html-Css-and-Javascript/assets/125201557/6bcbbb31-86bb-4af2-8a2a-5c517c18aa95)
+![Ekran görüntüsü 2024-06-23 014816](https://github.com/grbzemir/Tesla-Clone-Website-Using-Html-Css-and-Javascript/assets/125201557/3cce7286-d021-4d52-9665-65d5c0dc0c13)
+![Ekran görüntüsü 2024-06-23 014822](https://github.com/grbzemir/Tesla-Clone-Website-Using-Html-Css-and-Javascript/assets/125201557/91582da6-9e89-46a3-8565-01c3bd0ab311)
+![Ekran görüntüsü 2024-06-23 014743](https://github.com/grbzemir/Tesla-Clone-Website-Using-Html-Css-and-Javascript/assets/125201557/00c957b3-0b32-49f2-af08-5e52efa41724)
