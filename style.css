@@ -208,6 +208,7 @@ header a {
 .main-2 {
     position: relative;
     /* Göreceli konumlandırma */
+    min-height: 100vh;
 
 }
 
@@ -564,7 +565,7 @@ header a {
 
 }
 
-.head {
+/* .head {
     opacity: 0;
 
 }
@@ -652,11 +653,10 @@ header a {
     z-index: 1;
 }
 
-
 .active {
     opacity: 1;
 }
 
 .hide {
     opacity: 0;
-}
+} */
